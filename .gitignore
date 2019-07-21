@@ -1,0 +1,16 @@
+# generic ignores
+.DS_Store
+
+# vscode
+.vscode
+
+# terraform
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore test output locally
+tfplan
+tfplan.json
